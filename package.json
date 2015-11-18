@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "xmldom": "^0.1.19"
+  }
+}
