@@ -67,7 +67,7 @@ var mergeXMLData = function(sourceData, targetData, parentTag, tag, matchingid) 
 				found = true;
 			}
 		}
-		if(!found && destinationTag.getElementsByTagName('tag')[0].textContent == 'Baltimore') {
+		if(!found && destinationTag.getElementsByTagName('tag').length > 0 && destinationTag.getElementsByTagName('tag')[0].textContent == 'Baltimore') {
 			removedValueCount++;
 			destinationTag.getElementsByTagName('value')[0].textContent = '';
 		}

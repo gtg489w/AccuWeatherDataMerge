@@ -12,6 +12,14 @@
     </variable>
     <variable>
       <category>text</category>
+      <name>Baltimore Day 1 High</name>
+      <value>52F</value>
+      <tags>
+        <tag>Baltimore</tag>
+      </tags>
+    </variable>
+    <variable>
+      <category>text</category>
       <name>Baltimore Day 1 Hour 19 Temperature</name>
       <value>44F</value>
       <tags>
